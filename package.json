@@ -16,12 +16,14 @@
   "license": "MIT",
   "dependencies": {
     "angular": "^1.5.0",
+    "angular-ui-router": "^1.0.30",
     "jquery": "^3.6.1",
     "ngVue": "^2.1.3",
     "vue": "^2.7.11"
   },
   "devDependencies": {
     "@types/angular": "^1.8.4",
+    "@types/angular-ui-router": "^1.1.41",
     "@types/jquery": "^3.5.14",
     "@types/node": "^18.8.0",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
