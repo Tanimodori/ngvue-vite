@@ -7,8 +7,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:eqeqeq-fix/recommended"
+    "plugin:prettier/recommended"
   ],
   "parser": "vue-eslint-parser",
   "parserOptions": {
