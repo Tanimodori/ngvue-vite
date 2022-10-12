@@ -27,9 +27,14 @@ export async function init() {
   await import('ngVue');
 
   /**
-   * Bootstrap AngularJS.
+   * Construct app
    */
   const app = await import('./app');
+  await import('./views');
+
+  /**
+   * Bootstrap AngularJS.
+   */
   $(document).ready(function () {
     angular.bootstrap(document, [app.default]);
   });

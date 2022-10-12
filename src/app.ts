@@ -1,10 +1,7 @@
-import AppView from '@/views/AppView.vue';
+import 'angular-ui-router';
 
-const module = angular
-  .module('app', ['ngVue'])
-  .controller('AppCtrl', function () {
-    console.log('Hello AngularJS!');
-  })
-  .value('AppView', AppView);
+const module = angular.module('app', ['ngVue', 'ui.router']).controller('AppCtrl', function () {
+  console.log('Hello AngularJS!');
+});
 
 export default module.name;
