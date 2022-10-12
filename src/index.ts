@@ -2,14 +2,16 @@
 
 export async function init() {
   /**
-   * load jQuery.
-   * prohibit AngularJS using jqlite.
+   * Load jQuery.
+   * Prohibit AngularJS using jqlite.
    */
   const jQuery = await import('jquery');
   // @ts-ignore
   globalThis.jQuery = globalThis.$ = globalThis.jqLite = jQuery.default;
 
-  // load AngularJS.
+  /**
+   * Load AngularJS.
+   */
   const angular = await import('angular');
   globalThis.angular = angular.default;
 
@@ -17,13 +19,20 @@ export async function init() {
    * Load Vue.
    * Inject Vueuses here if you need.
    * @example
+   * const Vue = await import('vue');
    * Vue.default.use(...);
    */
-  const Vue = await import('vue');
+  await import('vue');
   // @ts-ignore
   await import('ngVue');
 
-  return { jQuery, angular, Vue };
+  /**
+   * Bootstrap AngularJS.
+   */
+  const app = await import('./app');
+  $(document).ready(function () {
+    angular.bootstrap(document, [app.default]);
+  });
 }
 
 init();
