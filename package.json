@@ -4,6 +4,8 @@
   "description": "Example ngVue project using vite",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "vitest"
   },
   "keywords": [

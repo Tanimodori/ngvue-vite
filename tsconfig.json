@@ -15,7 +15,7 @@
     "allowJs": true,
     "noEmit": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     },
     "jsx": "preserve",
     "suppressImplicitAnyIndexErrors": true
