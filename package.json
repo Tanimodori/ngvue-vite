@@ -1,0 +1,15 @@
+{
+  "name": "ngvue-vite",
+  "version": "0.0.1",
+  "description": "Example ngVue project using vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "ngVue",
+    "vite"
+  ],
+  "author": "Tanimodori",
+  "license": "MIT"
+}
