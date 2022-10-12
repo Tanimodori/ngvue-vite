@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable no-var */
+
 import JQueryStatic from 'jquery';
 import AngularStatic from 'angular';
 
