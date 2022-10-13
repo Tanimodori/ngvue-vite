@@ -2,23 +2,13 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
-    "sourceMap": true,
     "moduleResolution": "Node",
-    "skipLibCheck": true,
-    "strict": true,
-    "isolatedModules": true,
     "lib": ["dom", "ESNext"],
-    "types": ["node", "vite/client"],
     "baseUrl": ".",
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "noEmit": true,
     "paths": {
       "@/*": ["./src/*"]
     },
-    "jsx": "preserve",
-    "suppressImplicitAnyIndexErrors": true
+    "jsx": "preserve"
   },
   "include": ["src/**/*.js", "src/**/*.ts", "src/**/*.vue", "vite.config.ts"],
   "vueCompilerOptions": {
