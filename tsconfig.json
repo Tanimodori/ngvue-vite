@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "target": "ESNext",
+    "module": "ES2015",
+    "target": "ES2015",
     "sourceMap": true,
     "moduleResolution": "Node",
     "skipLibCheck": true,
     "strict": true,
     "isolatedModules": true,
-    "lib": ["dom", "ESNext"],
+    "lib": ["dom", "ES2015"],
     "types": ["node", "vite/client", "angular"],
     "baseUrl": ".",
     "esModuleInterop": true,
