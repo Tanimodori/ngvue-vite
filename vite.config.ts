@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue2';
 export default defineConfig({
   root: resolve(__dirname),
   build: {
-    target: 'esnext',
+    target: 'es2015',
     outDir: 'dist',
     emptyOutDir: true,
   },
