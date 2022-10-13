@@ -5,9 +5,6 @@
     "moduleResolution": "Node",
     "lib": ["dom", "ESNext"],
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "jsx": "preserve"
   },
   "include": ["src/**/*.js", "src/**/*.ts", "src/**/*.vue", "vite.config.ts"]
