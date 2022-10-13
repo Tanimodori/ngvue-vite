@@ -8,7 +8,7 @@
     "strict": true,
     "isolatedModules": true,
     "lib": ["dom", "ESNext"],
-    "types": ["node", "vite/client", "angular"],
+    "types": ["node", "vite/client"],
     "baseUrl": ".",
     "esModuleInterop": true,
     "resolveJsonModule": true,
